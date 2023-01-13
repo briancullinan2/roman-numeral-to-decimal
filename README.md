@@ -12,9 +12,7 @@ How does this work? Imagine a triangle of electrodes, there is an even, monotono
 Hoping that by writing this now, creates markers in the planetary EEG to detect my brain waves from outerspace. Then reassociate those waves with the same intention that I had to write this program this morning in my dream. This should allow for a safe intention-based digital manifestation.
 
 ## youtube recording
-[![Youtube recording making this script]
-(https://img.youtube.com/vi/IZV-A5Y29mM/maxresdefault.jpg)]
-(https://www.youtube.com/watch?v=IZV-A5Y29mM)
+[![Youtube recording making this script](https://img.youtube.com/vi/IZV-A5Y29mM/maxresdefault.jpg)](https://www.youtube.com/watch?v=IZV-A5Y29mM)
 
 
 ## resources
