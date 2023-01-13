@@ -1,0 +1,50 @@
+<html>
+  <head>
+    <title>Roman Numeral to Decimal</title>
+    <script type="text/javascript">
+    // <!--
+
+      var numeralChars = [
+      'I',
+      'V',
+      'X',
+      'L',
+      'C',
+      'D',
+      'M'
+      ]
+function convertNumerals() {
+  var current = 0
+  var previous = 0
+  for(var i = 0; i < numerals.value.length; i++) {
+    var character = numerals.value[i]
+    var index = numeralChars.indexOf(character)
+    if(index == -1) {
+      decimal.value = ''
+      return
+    }
+
+    var prefix = (index % 2) == 0 ? 1 : 5
+    var incoming = prefix * Math.pow(10, Math.ceil(index / 2))
+    if(index < previous) {
+      current -= incoming
+    } else {
+      current += incoming
+    }
+  }
+  decimal.value = current
+}
+
+    // -->
+    </script>
+  </head>
+  <body>
+    <input type="text" id="numerals" name="numerals" value="MMXXIII" /><br />
+    <button onclick="convertNumerals()">Convert</button><br />
+    <input type="text" id="decimal" name="decimal" /><br />
+    <h1>Making this script</h1>
+    <script>
+      document.write(`<iframe width="560" height="315" allow="autoplay" modestbranding="true" src="https://www.youtube.com/watch?v=IZV-A5Y29mM&origin=\${window.location.origin}&controls=0&rel=0&autoplay=1" frameborder="0" allowfullscreen></iframe>`)
+    </script>
+  </body>
+</html>
